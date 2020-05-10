@@ -10,8 +10,7 @@ pipeline {
 
       stage('Prod') {
          steps {
-          sh: chmod u+x script.sh
-          sh: sh script.sh
+          sh label: '', script: 'script.sh'
          }
       }      
 
