@@ -2,3 +2,4 @@ this is the first line.
 adding line and push changes.
 This line is added from gui then we will do git pull to sync our local repo.
 Then we will do changes via local repo and do a git push.
+local repo created --> initialized --> remote repo added --> pull performef --> pushed 
